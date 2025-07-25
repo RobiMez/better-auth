@@ -45,7 +45,7 @@ export default function ArticleLayout() {
 				<div>
 					<SidebarTab group={group} setGroup={setGroup} />
 					<button
-						className="flex w-full items-center gap-2 px-5 py-2.5 border-b text-muted-foreground dark:bg-zinc-950 dark:border-t-zinc-900/30 dark:border-t"
+						className="flex w-full items-center gap-2 px-5 py-2.5 border-b text-muted-foreground dark:bg-zinc-950 dark:border-t-zinc-900/30 dark:border-t hover:bg-muted/50 transition-colors"
 						onClick={() => {
 							setOpenSearch(true);
 						}}
